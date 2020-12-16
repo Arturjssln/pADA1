@@ -2311,7 +2311,7 @@ input, select, textarea {
 				border-left: solid 1px #fff;
 			}
 
-			#header footer:before {
+			/*#header footer:before {
 				content: '';
 				display: block;
 				width: 90px;
@@ -2322,7 +2322,7 @@ input, select, textarea {
 				margin-left: -45px;
 				margin-bottom: -33px;
 				background: url("images/arrow.svg") no-repeat;
-			}
+			}*/
 
 		body.is-preload #header {
 			opacity: 0;
