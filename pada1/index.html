@@ -10,7 +10,9 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<noscript>
+			<link rel="stylesheet" href="assets/css/noscript.css" />
+		</noscript>
 	</head>
 	<body class="is-preload">
 		
@@ -55,10 +57,10 @@
 						These articles are security-related and cannot be defined as group-control but as comparator groups. 
 						The goal of this group is to show that for other security-related topics (that should interest the same category of person) that that do not raise privacy concerns, the revelations had less or no effect.
 					</p>
-					<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plotly.com/~Arturjssln/7.embed" height="525" width="80%"></iframe>
+					<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plotly.com/~Arturjssln/7.embed?showlink=false" height="525" width="80%"></iframe>
 					<p>
 						The previous graph show that the effect is much higher for the terrorism-related articles than for the control group.
-						Thus, we can infere that the hypothesis might be verified.
+						Thus, we can infere that the hypothesis might be verified for Wikipedia users.
 					</p>
 					<a href="#third" class="scrolly-middle"><h3>What about Google users ?</h3></a>
 				</div>
@@ -69,16 +71,77 @@
 					<header>
 						<h3>How are Google's users behaving?</h3>
 					</header>
-					<p>Rhoncus mattis egestas sed fusce sodales rutrum et etiam ullamcorper. Etiam egestas scelerisque ac duis magna lorem ipsum dolor.</p>
+					<div class="container"></div>
+						<div class="row">
+							<div class="col-6 col-12-mobile">
+								<p>
+									<b>Google</b> requests is more representative of people's habits, indeed the number of user is way larger on Google than Wikipedia. 
+									A similar analysis should be done on Google's data to assess the presence of a chilling effect. 
+									First, let's see the interest over two different periods. On Figure 2, there is no evidence of chilling effects.
+									However, this plot is not representative of the underlying trends! 
+									What if there were an immediate chilling effect after the revelations but no long term effects ? 
+									<br>Let's continue our analysis and check that!
+
+								</p>
+							</div>
+							<div class="col-6 col-12-mobile">
+								<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plotly.com/~Arturjssln/44.embed?showlink=false" height="400" width="100%"></iframe>
+							</div>
+						</div>
+						<div class="row" style="margin-top:1em">
+							<div class="col-12 col-12-mobile">
+								<p>
+									In order to represent the trend of the interest in the terrorism-related subjects over time, we are using a regression for both periods, similarly to what have been done for Wikipedia.
+									<br>Let's plot this:
+								</p>
+							</div>
+							<div class="col-12 col-12-mobile">
+								<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plotly.com/~Arturjssln/55.embed?showlink=false" height="525" width="100%"></iframe>
+							</div>
+							<div class="col-12 col-12-mobile">
+								<p>
+									We observe a slight decrease of 8% (even more if we look at the points, the regression overestimate the interest in the beginning) in the interest after the Snowden revelations.
+									It could be considered as a short-term chilling effect. However, very fast the trend is catching up with his old value and after 3 months, there are no effect anymore.
+									Now, I'm sure you're wondering...
+								</p>
+								<a><h3>...but, what if it's not really due to Snowden's revelations?</h3></a>
+							</div>
+						</div>
+						<div class="row" style="margin-top:1em">
+							<div class="col-12 col-12-mobile">
+								<p>
+									Don't worry, we've got it covered. Let's see how 
+									<h3>TODO: parler du deuxième groupe qu'on choisit !</h3>
+								</p>
+							</div>
+							<div class="col-12 col-12-mobile">
+								<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plotly.com/~Arturjssln/62.embed?showlink=false" height="525" width="100%"></iframe>
+							</div>
+						</div>
+						<div class="row" style="margin-top:1em">
+							<div class="col-12 col-12-mobile">
+								<p>
+									<b>Oh no... we forgot to check if there were some data that could mislead our analysis.</b>
+									<br><br>
+									Indeed, the way one interact with Wikipedia ang Google are very different.<br>
+									Wikipedia is used to do some research, to learn about something we don't know, to check a fact, etc. We rarely go on wikipedia look the the <i>attack</i> article after
+								</p>
+							</div>
+							<div class="col-12 col-12-mobile">
+								<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plotly.com/~Arturjssln/66.embed?showlink=false" height="525" width="100%"></iframe>
+							</div>
+						</div>
+					</div>
 				</div>
 			</article>
 
 			<article id="forth" class="container box style3">
 				<div class="inner">
 					<header>
-						<h3>Conclusion</h3>
+						<h3>Do government activities have an effect on how people use Google? </h3>
 					</header>
-					<p>Rhoncus mattis egestas sed fusce sodales rutrum et etiam ullamcorper. Etiam egestas scelerisque ac duis magna lorem ipsum dolor.</p>
+					<p>The way one interact with Wikipedia ang Google are very different.
+					</p>
 				</div>
 			</article>
 
@@ -94,13 +157,13 @@
 					<div class="col-2">
 					</div>
 					<div class="col-3">
-						Ghali Chraibi
+						<a href='https://github.com/Ghalicb'>Ghali Chraibi</a>		
 					</div>
 					<div class="col-2">
-						Artur Jesslen
+						<a href='https://github.com/Arturjssln'>Artur Jesslen</a>
 					</div>
 					<div class="col-3">
-						Luc Michels
+						<a href='https://github.com/LucMichels'>Luc Michels</a>
 					</div>
 					<div class="col-2">
 					</div>
@@ -125,6 +188,7 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/particles.min.js"></script>
 			<script src="assets/js/main.js"></script>
+			
 
 	</body>
 </html>
