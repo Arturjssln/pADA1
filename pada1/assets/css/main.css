@@ -135,6 +135,7 @@ input, select, textarea {
 	h3 {
 		font-size: 1em;
 		letter-spacing: 5px;
+		text-align: center!important;
 	}
 
 	strong, b {
@@ -474,11 +475,11 @@ input, select, textarea {
 
 	.container {
 		margin: 0 auto;
-		width: 100%;
 	}
 
 	.container .inner {
-		text-align:center;
+		text-align:justify;
+		margin: 0 5%;
 	}
 
 /* Row */

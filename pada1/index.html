@@ -34,8 +34,11 @@
 			<article id="first" class="container box style3">
 				<div class="inner">
 					<p>
-						Before 2013, the U.S. government was running many global surveillance programs in the total ignorance of the people through its biggest security agency, the National Security Agency (NSA). In June 2013, an american whistleblower, Edward Snowden, exposed the truth about the illegal surveillance programs to the eyes of the world by leaking information in the media. The revelation of classified details from United States government surveillance programs prompted a cultural discussion about national security and individual privacy. 
-						As a result of these announcements, Dr. Jon Penney provided evidence of regulatory “chilling effects” of Wikipedia users associated with online government. Indeed, he showed that traffic to Wikipedia articles on topics that raise privacy concerns for Wikipedia users decreased.<br>
+						Before 2013, the U.S. government was running many global surveillance programs in the total ignorance of the people through its biggest security agency, the National Security Agency (NSA). 
+						In June 2013, an american whistleblower, Edward Snowden, exposed the truth about the illegal surveillance programs to the eyes of the world by leaking information in the media. 
+						The revelation of classified details from United States government surveillance programs prompted a cultural discussion about national security and individual privacy. 
+						As a result of these announcements, Dr. Jon Penney provided evidence of regulatory “chilling effects” of Wikipedia users associated with online government. 
+						Indeed, he showed that traffic to Wikipedia articles on topics that raise privacy concerns for Wikipedia users decreased.
 						Wikipedia can be seen as a good sample of the population, but... 
 					</p>
 					<a href="#second" class="scrolly-middle"><h3>...is it representative of the population's behavior ?</h3></a>
@@ -80,7 +83,7 @@
 									First, let's see the interest over two different periods. On Figure 2, there is no evidence of chilling effects.
 									However, this plot is not representative of the underlying trends! 
 									What if there were an immediate chilling effect after the revelations but no long term effects ? 
-									<br>Let's continue our analysis and check that!
+									Let's continue our analysis!
 
 								</p>
 							</div>
@@ -92,7 +95,6 @@
 							<div class="col-12 col-12-mobile">
 								<p>
 									In order to represent the trend of the interest in the terrorism-related subjects over time, we are using a regression for both periods, similarly to what have been done for Wikipedia.
-									<br>Let's plot this:
 								</p>
 							</div>
 							<div class="col-12 col-12-mobile">
@@ -104,7 +106,7 @@
 									It could be considered as a short-term chilling effect. However, very fast the trend is catching up with his old value and after 3 months, there are no effect anymore.
 									Now, I'm sure you're wondering...
 								</p>
-								<a><h3>...but, what if it's not really due to Snowden's revelations?</h3></a>
+								<a><h3>... what if it's not really due to Snowden's revelations?</h3></a>
 							</div>
 						</div>
 						<div class="row" style="margin-top:1em">
@@ -122,13 +124,25 @@
 							<div class="col-12 col-12-mobile">
 								<p>
 									<b>Oh no... we forgot to check if there were some data that could mislead our analysis.</b>
-									<br><br>
-									Indeed, the way one interact with Wikipedia ang Google are very different.<br>
-									Wikipedia is used to do some research, to learn about something we don't know, to check a fact, etc. We rarely go on wikipedia look the the <i>attack</i> article after
+									Indeed, the way one interact with Wikipedia ang Google are very different.
+									Wikipedia is used to do some research, to learn new things, to check a fact, etc. 
+									We rarely go on wikipedia to look at the <i>attack</i> article just after an attack happened. 
+									We would most probably just write <i>Attack</i> on Google. 
+									Consequently, Google requests are stronlgy related to the news. 
+									It is obvious when we take a closer look at some research terms such as <h3>TODO: trouver quels termes et est ce qu'on inclu un graph ????</h3> 
+									that some events induce some huge peak of interest around these events. 
+									This sensitivy to world events induce a lot of noise in the data and could lead to false interpretation.
+									Finally, after removal of these subject that we call <i>outliers</i>, we should have a new look to the trends!
 								</p>
 							</div>
 							<div class="col-12 col-12-mobile">
 								<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plotly.com/~Arturjssln/66.embed?showlink=false" height="525" width="100%"></iframe>
+							</div>
+							<div class="col-12 col-12-mobile">
+								<p>
+									<b>How surpising!</b> 
+									Did you notice that the terrorism trends seems to be completely independent to surveillance programs' exposure?
+								</p>
 							</div>
 						</div>
 					</div>
@@ -140,7 +154,8 @@
 					<header>
 						<h3>Do government activities have an effect on how people use Google? </h3>
 					</header>
-					<p>The way one interact with Wikipedia ang Google are very different.
+					<p>
+						TODO
 					</p>
 				</div>
 			</article>
