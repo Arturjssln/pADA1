@@ -44,7 +44,7 @@
 	// Scrolly.
 		$('.scrolly-middle').scrolly({
 			speed: 1000,
-			anchor: 'middle'
+			anchor: 'start'
 		});
 
 		$('.scrolly').scrolly({
